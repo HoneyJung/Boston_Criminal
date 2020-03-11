@@ -20,6 +20,12 @@ module.exports = function (app) {
     app.get('/login', function (req, res) {
         res.render('login.html')
     });
+    app.get('/signup', function (req, res) {
+        res.render('signup.html')
+    });
+    app.get('/temp', function (req, res) {
+        res.render('temp.html')
+    });
     app.get('/trash', function (req, res) {
         res.render('trash.html')
     });
